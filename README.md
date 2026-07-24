@@ -1,55 +1,43 @@
-# TS LAWCET - Law Entrance Exam Preparation Platform
+# TS LAWCET Prep
 
-A modern, scalable platform for Telangana State Law Common Entrance Test (TS LAWCET) preparation.
+A web-based preparation platform for the Telangana State Law Common Entrance Test. The project provides a structured interface for study material, practice, and progress-oriented exam preparation.
 
 ## Features
 
-- Comprehensive course materials
-- Practice tests with detailed analytics
-- Expert instructors and guidance
-- Interactive learning experience
+- Subject and course-material navigation
+- Practice-test experience
+- Progress and performance views
+- Responsive single-page interface
 
-## Tech Stack
+## Tech stack
 
-- **Frontend**: Next.js 16, React 19, TypeScript
-- **Styling**: Tailwind CSS
-- **Deployment**: Vercel
+- React 19
+- TypeScript
+- React Router
+- Vite 5
 
-## Getting Started
+## Run locally
 
-### Prerequisites
+Requirements: Node.js 18 or newer.
 
-- Node.js 18+
-- npm or pnpm
-
-### Installation
-
-```bash
-# Install dependencies
+~~~bash
+git clone https://github.com/saishivasanjeethpaikarao-jpg/TS-LAWCET.git
+cd TS-LAWCET
 npm install
-
-# Start development server
 npm run dev
-```
+~~~
 
-The app will be available at `http://localhost:3000`
+Vite prints the local development URL, normally `http://localhost:5173`.
 
-### Build
+## Production build
 
-```bash
+~~~bash
 npm run build
-npm start
-```
+npm run preview
+~~~
 
-## Deployment
+The production files are generated in `dist/` and can be deployed to a static host such as Vercel, Netlify, or Cloudflare Pages.
 
-Deploy to Vercel:
+## Status
 
-```bash
-npm run build
-vercel deploy
-```
-
-## License
-
-MIT
+Prototype under active development. Verify question content and exam information against official TS LAWCET sources before using it for serious preparation.
